@@ -109,7 +109,6 @@ for lr in learning_rates:
         if structure == 'vggnet':
             # 构建并编译VGGNet模型
             model = build_vggnet_model(learning_rate=lr)
-            continue
         elif structure == 'resnet':
             # 构建并编译ResNet模型
             model = build_resnet_model(learning_rate=lr)
